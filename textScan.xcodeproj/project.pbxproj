@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C40F0F8A19EAFB4A00D8EAC9 /* Circle-Abstract-Wallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C40F0F8919EAFB4A00D8EAC9 /* Circle-Abstract-Wallpaper.jpg */; };
 		C483CFF119E6677F00EF6854 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C483CFF019E6677F00EF6854 /* Foundation.framework */; };
 		C483CFF319E6677F00EF6854 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C483CFF219E6677F00EF6854 /* CoreGraphics.framework */; };
 		C483CFF519E6677F00EF6854 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C483CFF419E6677F00EF6854 /* UIKit.framework */; };
@@ -21,6 +22,8 @@
 		C483D01219E6677F00EF6854 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C483CFF419E6677F00EF6854 /* UIKit.framework */; };
 		C483D01A19E6677F00EF6854 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C483D01819E6677F00EF6854 /* InfoPlist.strings */; };
 		C483D01C19E6677F00EF6854 /* textScanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C483D01B19E6677F00EF6854 /* textScanTests.m */; };
+		C4D4D9B719E7C1FA0093AD61 /* ManagerBarCodeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D4D9B519E7C1FA0093AD61 /* ManagerBarCodeTableViewCell.m */; };
+		C4D4D9B819E7C1FA0093AD61 /* ManagerBarCodeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4D4D9B619E7C1FA0093AD61 /* ManagerBarCodeTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C40F0F8919EAFB4A00D8EAC9 /* Circle-Abstract-Wallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Circle-Abstract-Wallpaper.jpg"; sourceTree = "<group>"; };
 		C483CFED19E6677F00EF6854 /* textScan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = textScan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C483CFF019E6677F00EF6854 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C483CFF219E6677F00EF6854 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +57,9 @@
 		C483D01719E6677F00EF6854 /* textScanTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "textScanTests-Info.plist"; sourceTree = "<group>"; };
 		C483D01919E6677F00EF6854 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C483D01B19E6677F00EF6854 /* textScanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = textScanTests.m; sourceTree = "<group>"; };
+		C4D4D9B419E7C1FA0093AD61 /* ManagerBarCodeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManagerBarCodeTableViewCell.h; sourceTree = "<group>"; };
+		C4D4D9B519E7C1FA0093AD61 /* ManagerBarCodeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManagerBarCodeTableViewCell.m; sourceTree = "<group>"; };
+		C4D4D9B619E7C1FA0093AD61 /* ManagerBarCodeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ManagerBarCodeTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,9 +119,13 @@
 		C483CFF619E6677F00EF6854 /* textScan */ = {
 			isa = PBXGroup;
 			children = (
+				C40F0F8919EAFB4A00D8EAC9 /* Circle-Abstract-Wallpaper.jpg */,
 				C483CFFF19E6677F00EF6854 /* ManagerAppDelegate.h */,
 				C483D00019E6677F00EF6854 /* ManagerAppDelegate.m */,
 				C483D00219E6677F00EF6854 /* Main.storyboard */,
+				C4D4D9B419E7C1FA0093AD61 /* ManagerBarCodeTableViewCell.h */,
+				C4D4D9B519E7C1FA0093AD61 /* ManagerBarCodeTableViewCell.m */,
+				C4D4D9B619E7C1FA0093AD61 /* ManagerBarCodeTableViewCell.xib */,
 				C483D00519E6677F00EF6854 /* ManagerViewController.h */,
 				C483D00619E6677F00EF6854 /* ManagerViewController.m */,
 				C483D00819E6677F00EF6854 /* Images.xcassets */,
@@ -231,6 +242,8 @@
 			files = (
 				C483D00919E6677F00EF6854 /* Images.xcassets in Resources */,
 				C483CFFB19E6677F00EF6854 /* InfoPlist.strings in Resources */,
+				C40F0F8A19EAFB4A00D8EAC9 /* Circle-Abstract-Wallpaper.jpg in Resources */,
+				C4D4D9B819E7C1FA0093AD61 /* ManagerBarCodeTableViewCell.xib in Resources */,
 				C483D00419E6677F00EF6854 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,6 +265,7 @@
 			files = (
 				C483D00119E6677F00EF6854 /* ManagerAppDelegate.m in Sources */,
 				C483CFFD19E6677F00EF6854 /* main.m in Sources */,
+				C4D4D9B719E7C1FA0093AD61 /* ManagerBarCodeTableViewCell.m in Sources */,
 				C483D00719E6677F00EF6854 /* ManagerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -459,6 +473,7 @@
 				C483D02119E6677F00EF6854 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C483D02219E6677F00EF6854 /* Build configuration list for PBXNativeTarget "textScanTests" */ = {
 			isa = XCConfigurationList;
@@ -467,6 +482,7 @@
 				C483D02419E6677F00EF6854 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
